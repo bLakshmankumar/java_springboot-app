@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: lakshman9977/jenkins-elk:elkimage
+        image: lakshman9977/jenkins-eks:eksimage
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
